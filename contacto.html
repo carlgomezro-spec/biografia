@@ -19,7 +19,7 @@
          </a>
         </div>
       </nav>
-      
+
       <nav id="navbar">
         <ul>
           <li><a href="./index.html">Home</a></li>
@@ -30,15 +30,15 @@
       </nav>
     </header>
     <main>
-         <h2>Estamos en contacto</h2>
-
+        <div class="estamos en contacto"
+         <h2>Estamos en contacto</h2>></div>
         <form id="contactForm">
           <label for="fname">Nombre:</label>
           <input
             type="text"
             id="fname"
             name="fname"
-            placeholder="Introduce nombre..."
+            placeholder="Nombre..."
             minlength="3"
             maxlenght="30"
             required
@@ -49,7 +49,7 @@
             type="text"
             id="lname"
             name="lname"
-            placeholder="Introduce apellidos..."
+            placeholder="Apellidos..."
             minlength="3"
             maxlenght="30"
             required
@@ -60,7 +60,7 @@
             type="email"
             id="email"
             name="email"
-            placeholder="Introduce email..."
+            placeholder="Correo electrónico..."
             required
           />
           />
@@ -70,8 +70,32 @@
             cols="30"
             name="comments"
             wrap="hard"
-            placeholder="Tu mensaje..."
+            placeholder="Mensaje..."
           ></textarea>   
-    </main>         
+          <div>
+            <label
+              ><input
+                type="checkbox"
+                id="accept"
+                value="accept"
+                name="accept"
+              />
+            He leído y acepto Política de privacidad
+            RESPONSABLE:  Carlos Gómez FINALIDAD PRINCIPAL: 
+            Envío de mis artículos del blog, novedades, así como el aviso de nuevas actividades de carácter comercial LEGITIMACIÓN: Consentimiento del interesado. DESTINATARIOS: No se cederán datos a terceros, salvo autorización expresa u obligación legal DERECHOS: Acceder, rectificar y suprimir los datos, portabilidad de los datos, limitación u oposición a su tratamiento, transparencia y derecho a no ser objeto de decisiones automatizadas. INFORMACIÓN ADICIONAL: Puede consultar la información adicional y detallada sobre nuestra Política de Privacidad y Aviso Legal</label
+            >
+          </div>
+          <input type="submit" value="Enviar" />
+        </form>
+    </main> 
+ <footer>
+      <div class="footer-content">
+        <p>&copy; Carlos Gómez Rodríguez</p>
+        <p>carl.gomezro@gmail.com</p>
+        <div>
+          <a href="#">Política de Privacidad</a>  <a href="#">Términos y Condiciones</a>
+        </div>
+      </div>
+    </footer>        
 </body>
 </html>
