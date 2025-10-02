@@ -9,8 +9,8 @@
   font-family: 'poppins';        /* Nombre que usarás en CSS */
   src: url('fonts/poppins.woff2') format('woff2'),
        url('fonts/poppins.woff2') format('woff'); /* fallback */
-  font-weight: normal;            /* normal, bold, etc */
-  font-style: normal;             /* normal, italic, oblique */
+  font-weight: thin;            /* normal, bold, etc */
+  font-style: thin;             /* normal, italic, oblique */
 }
 
 body {
