@@ -108,7 +108,6 @@ nav > ul > li > a {
 /* Clase */
 .content {
   background-color: var(--white);
-  margin: 22px 5px;
   padding: 8px 10px;
 }
 
@@ -121,6 +120,12 @@ nav > ul > li > a {
   border: 1px dotted black;
 }
 
+#sobre-mi {
+  display: flex;
+  justify-content: right; /* no "right" */
+  align-items: right;     /* si quieres abajo a la derecha */
+  width: 50%; /* el contenedor necesita ocupar todo el ancho */
+}
 
 /* El figure debe ocupar toda la ventana */
 #main_figure {
@@ -142,8 +147,15 @@ nav > ul > li > a {
 }
 
 
-figure > figcaption {
-  font-size: x-small;
+#second_figure {
+  text-align: right;
+  
+}
+
+#second_figure img {
+  position: relative; top: right;
+  width: 50%;
+  height: 50%;
 }
 
 
