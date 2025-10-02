@@ -1,53 +1,62 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Carlos Gomez Porfolio</title>
-    <link rel="stylesheet" type="text/css" href="css/styles.css" />
-    <link rel="icon" type="image/x-icon" href="./assets/favicon.png" />
-    <script src="script.js" defer></script>
-  </head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Carlos Gomez Portfolio</title>
+  <link rel="stylesheet" type="text/css" href="css/styles.css" />
+  <link rel="icon" type="image/x-icon" href="./assets/favicon.png" />
+  <script src="script.js" defer></script>
+</head>
 <body>
-<header>
-      <button id="menu-toggle" aria-label="Toggle navigation">☰</button>
-
-       <nav class="navbar">
-        <div class="navbar-left">
-          <a href="index.html">
-           <img src="./assets/logo_white.png" alt="CG-Logotipo" class="navbar-logo">
-         </a>
-        </div>
-      </nav>
-      
-      <nav id="navbar">
-        <ul>
-          <li><a href="./index.html">Home</a></li>
-          <li><a href="#">Sobre Mí</a></li>
-          <li><a href="./portfolio.html">Portfolio</a></li>
-          <li><a href="./contacto.html">Contact</a>
-        </ul>
-      </nav>
-    </header>
- <main>
-      <section class="content">
-        <h2>Sobre mí</h2>
-        <article id="sobre-mi" >
-        <br>
-          ¡Hola, hola! 👋 Soy Carlos y estoy aquí para hablar sobre creatividad, marketing y diseño gráfico.
-          <br>¿Por qué trabajar conmigo?
-          💡 Soy un apasionado de las ideas que conectan, inspiran y transforman. 
-          <br>Mi enfoque va más allá de lo visual: busco estrategias que generen impacto real en las marcas y en las personas. 
-          <br>Me encanta convertir conceptos en experiencias memorables, liderar equipos con energía y llevar cada proyecto al siguiente nivel.<br>
-         A lo largo de mi trayectoria, he trabajado en campañas 360º, branding, storytelling y marketing digital, siempre con un equilibrio entre creatividad e innovación. 
-
-        🚀 Si te gusta hacer ruido (del bueno), hablemos.
-        </p>
+  <header>
+    <button id="menu-toggle" aria-label="Abrir o cerrar menú" aria-controls="navbar">☰</button>
+    <nav class="navbar">
+      <div class="navbar-left">
+        <a href="index.html">
+          <img src="./assets/logo_white.png" alt="CG-Logotipo" class="navbar-logo">
+        </a>
+      </div>
+    </nav>
+    <nav id="navbar">
+      <ul>
+        <li><a href="./index.html">Home</a></li>
+        <li><a href="#">Sobre Mí</a></li>
+        <li><a href="./portfolio.html">Portfolio</a></li>
+        <li><a href="./contacto.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <section class="content-about-me">
+      <h1 id="title-sobre-mi">Sobre mí</h1>
+      <div class="sobre-mi-article">
+        <article id="sobre-mi"> 
+          <p>
+            ¡Hola, hola! 👋 Soy Carlos y estoy aquí para hablar sobre creatividad, marketing y diseño gráfico.
+          </p>
+          <p>
+            <strong>¿Por qué trabajar conmigo?</strong><br>
+            💡 Soy un apasionado de las ideas que conectan, inspiran y transforman.
+            <br>
+            Mi enfoque va más allá de lo visual: busco estrategias que generen impacto real en las marcas y en las personas.
+            🚀 Si te gusta hacer ruido (del bueno), hablemos.
+          </p>
         </article>
-        
         <figure id="second_figure">
-          <img src="assets/foto_perfil_carlos_gomez.jpg" id="main_picture" />
+          <img src="assets/foto_perfil_carlos_gomez.jpg" id="main_picture" alt="Foto de perfil de Carlos Gómez" />
         </figure>
-        </section>
+      </div>
+    </section>
+  </main>
+  <footer>
+      <div class="footer-content">
+        <p>&copy; Carlos Gómez Rodríguez</p>
+        <p>carl.gomezro@gmail.com</p>
+        <div>
+          <a href="#">Política de Privacidad</a> | <a href="#">Términos y Condiciones</a>
+        </div>
+      </div>
+    </footer>
 </body>
 </html>
